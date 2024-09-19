@@ -1,0 +1,89 @@
+Vorname;Nachname;Adresse;PLZ;Ort;Telefon;Mobil;Geburtsdatum;Email
+Max;Meier;Bahnhofstrasse 1;8001;Zürich;0441234567;0791234567;1980-01-01;max.meier@example.com
+Anna;Schneider;Lindenweg 4;3011;Bern;0312345678;0789876543;1990-02-15;anna.schneider@example.com
+Peter;Müller;Hauptstrasse 15;5000;Aarau;0623456789;0776543210;1985-03-20;peter.mueller@example.com
+Maria;Weber;Zentrumstrasse 8;8003;Zürich;0442345678;0798765432;1978-04-25;maria.weber@example.com
+Thomas;Fischer;Musterstrasse 10;6300;Zug;0415678901;0787654321;1982-05-30;thomas.fischer@example.com
+Laura;Keller;Hohlstrasse 9;4054;Basel;0616789012;0778765432;1992-06-15;laura.keller@example.com
+Martin;Hofmann;Marktplatz 2;7000;Chur;0817890123;0785432109;1988-07-10;martin.hofmann@example.com
+Julia;Zimmermann;Dorfstrasse 3;3415;Rüti;0318901234;0765432198;1995-08-05;julia.zimmermann@example.com
+Andreas;Gerber;Gartenstrasse 12;8200;Schaffhausen;0529012345;0791230987;1974-09-12;andreas.gerber@example.com
+Nina;Schmid;Klausenstrasse 6;8953;Dietikon;0449876543;0796543210;1989-10-21;nina.schmid@example.com
+Michael;Frei;Riedstrasse 8;8320;Fehraltorf;0448765432;0781234567;1983-11-02;michael.frei@example.com
+Claudia;Bauer;Alpenstrasse 5;9000;St. Gallen;0712345678;0765432109;1976-12-15;claudia.bauer@example.com
+Daniel;Häberli;Eichenweg 3;4058;Basel;0613456789;0793214567;1981-01-10;daniel.haeberli@example.com
+Sophie;Bachmann;Schulstrasse 12;5620;Bad Zurzach;0567890123;0784321098;1994-02-28;sophie.bachmann@example.com
+Oliver;Meyer;Lindenstrasse 4;8853;Lachen;0556789012;0798765432;1987-03-05;oliver.meyer@example.com
+Simone;Pfister;Industriestrasse 2;8112;Otelfingen;0449876543;0785432109;1990-04-12;simone.pfister@example.com
+Patrick;Kühn;Zelgstrasse 6;8700;Küsnacht;0448765432;0791234567;1985-05-19;patrick.kuehn@example.com
+Isabel;Kramer;Gartenweg 7;7000;Chur;0811234567;0789876543;1992-06-30;isabel.kramer@example.com
+Franz;Gasser;Bahnhofplatz 1;8038;Zürich;0442345678;0765432198;1980-07-07;franz.gasser@example.com
+Elena;Schaad;Hauptstrasse 18;1716;Untervaz;0816543210;0781234567;1988-08-15;elena.schaad@example.com
+Martin;Eberle;Kirchstrasse 10;4612;Wangen bei Olten;0627890123;0798765432;1975-09-25;martin.eberle@example.com
+Katrin;Schürch;Mättelistrasse 12;3063;Ittigen;0314567890;0785432198;1983-10-30;katrin.schuerch@example.com
+Lukas;Haas;Weidstrasse 8;6060;Sarnen;0416789012;0791230987;1994-11-20;lukas.haas@example.com
+Nadine;Roth;Sonnenstrasse 5;8500;Frauenfeld;0523456789;0787654321;1989-12-01;nadine.roth@example.com
+Paul;Keller;Arealstrasse 2;8450;Andelfingen;0521234567;0799876543;1976-01-05;paul.keller@example.com
+Carla;Wagner;Jurastrasse 10;4112;Basel;0617890123;0765432109;1992-02-25;carla.wagner@example.com
+Jörg;Zeller;Zentrumstrasse 1;8501;Frauenfeld;0526789012;0784321098;1984-03-15;joerg.zeller@example.com
+Heidi;Bernet;Hauptstrasse 8;6045;Meggen;0411234567;0795432109;1990-04-20;heidi.bernet@example.com
+Stefan;Wüthrich;Neumarkt 11;8400;Winterthur;0524567890;0787654321;1981-05-30;stefan.wuethrich@example.com
+Janine;Galli;Landstrasse 7;6020;Emmen;0416789012;0798765432;1985-06-15;janine.galli@example.com
+Silvia;Hertig;Zentrumstrasse 3;7302;Landquart;0817890123;0765432198;1993-07-10;silvia.herzig@example.com
+Reto;Bieri;Feldstrasse 12;4600;Olten;0623456789;0789876543;1988-08-25;reto.bieri@example.com
+Aline;Lüthi;Bernstrasse 9;3400;Burgdorf;0345678901;0798765432;1991-09-05;aline.luethi@example.com
+Alex;Schneider;Königstrasse 5;6300;Zug;0412345678;0785432109;1986-10-15;alex.schneider@example.com
+Mona;Jost;Wilstrasse 6;8320;Fehraltorf;0449876543;0793214567;1994-11-05;mona.jost@example.com
+Ralph;Ammann;Hohlstrasse 5;4054;Basel;0615678901;0765432109;1981-12-20;ralph.ammann@example.com
+Lorena;Vogel;Buchserstrasse 3;5000;Aarau;0624567890;0787654321;1990-01-10;lorena.vogel@example.com
+Benedikt;Müller;Schweizerstrasse 7;4056;Basel;0616789012;0798765432;1987-02-22;benedikt.mueller@example.com
+Sina;Frei;Hauptstrasse 7;8854;Siebenmorgen;0557890123;0784321098;1993-03-30;sina.frei@example.com
+Jasmin;Moser;Römerstrasse 2;8153;Rümlang;0441234567;0796543210;1988-04-18;jasmin.moser@example.com
+Martin;Friedli;Lindenstrasse 10;3006;Bern;0312345678;0789876543;1975-05-23;martin.friedli@example.com
+Simone;Zeller;Zürcherstrasse 5;8700;Küsnacht;0448765432;0793214567;1989-06-10;simone.zeller@example.com
+Jürgen;Stark;Sonnenweg 8;8700;Küsnacht;0449876543;0781234567;1983-07-25;juergen.stark@example.com
+Lena;Schweizer;Hauptstrasse 10;8004;Zürich;0441234567;0791234567;1981-01-22; lena.schweizer@example.com
+Simon;Kaufmann;Bahnhofstrasse 7;4051;Basel;0612345678;0792345678;1990-02-12; simon.kaufmann@example.com
+Nina;Müller;Alpenstrasse 3;3900;Zermatt;0271234567;0781234567;1993-03-29; nina.mueller@example.com
+Marc;Fischer;Kirchstrasse 5;7000;Chur;0812345678;0793456789;1985-04-15; marc.fischer@example.com
+Eva;Schmid;Märtplatz 1;8500;Frauenfeld;0522345678;0789876543;1992-05-22; eva.schmid@example.com
+Jan;Keller;Lindenweg 12;6030;Ebikon;0413456789;0798765432;1988-06-30; jan.keller@example.com
+Miriam;Haas;Sonnenweg 4;8005;Zürich;0444567890;0782345678;1987-07-11; miriam.haas@example.com
+Roman;Moser;Zentrumstrasse 6;8400;Winterthur;0525678901;0793456789;1983-08-19; roman.moser@example.com
+Anna;Gerber;Rosenweg 9;4410;Liestal;0616789012;0794567890;1990-09-25; anna.gerber@example.com
+Andreas;Hofmann;Bahnhofplatz 3;8001;Zürich;0447890123;0782345678;1982-10-14; andreas.hofmann@example.com
+Claudia;Lüthi;Feldstrasse 8;8450;Andelfingen;0526789012;0785432109;1979-11-01; claudia.luethi@example.com
+David;Schweizer;Marktplatz 2;1700;Fribourg;0261234567;0792345678;1991-12-12; david.schweizer@example.com
+Sabrina;Roth;Gartenstrasse 6;3900;Zermatt;0273456789;0794567890;1986-01-17; sabrina.roth@example.com
+Patrick;Eberle;Industriestrasse 15;8320;Fehraltorf;0441234567;0789876543;1984-02-25; patrick.eberle@example.com
+Sara;Häberli;Zelgstrasse 7;8700;Küsnacht;0442345678;0781234567;1993-03-12; sara.haeberli@example.com
+Philipp;Degen;Hauptstrasse 4;5452;Rheinau;0526789012;0792345678;1980-04-21; philipp.degen@example.com
+Martina;Hertli;Schulstrasse 12;3063;Ittigen;0313456789;0784567890;1985-05-11; martina.hertli@example.com
+Ursula;Stucki;Buchserstrasse 3;5000;Aarau;0624567890;0789876543;1988-06-18; ursula.stucki@example.com
+Michael;Bachmann;Zentrumstrasse 7;4000;Basel;0612345678;0788765432;1975-07-24; michael.bachmann@example.com
+Katharina;Blum;Wiesenstrasse 9;8134;Adliswil;0446789012;0793456789;1982-08-10; katharina.blum@example.com
+Felix;Hess;Rüti 12;8422;Winkeln;0527890123;0784567890;1991-09-21; felix.hess@example.com
+Sophie;Lanz;Römerstrasse 8;2502;Biel;0324567890;0791230987;1986-10-12; sophie.lanz@example.com
+Laura;Meyer;Hauptstrasse 16;8112;Otelfingen;0441234567;0787654321;1994-11-05; laura.meyer@example.com
+Tobias;Kuster;Schulweg 5;4612;Wangen bei Olten;0623456789;0799876543;1988-12-17; tobias.kuster@example.com
+Sandra;Egli;Bernstrasse 3;3400;Burgdorf;0345678901;0784567890;1990-01-23; sandra.egli@example.com
+Gian;Peters;Industriestrasse 2;8304;Wangen;0441234567;0793456789;1987-02-11; gian.peters@example.com
+Nicolas;Bieri;Zentrumplatz 5;8105;Regensdorf;0445678901;0781234567;1992-03-08; nicolas.bieri@example.com
+Monika;Frei;Bahnhofstrasse 7;5242;Birr;0561234567;0789876543;1985-04-15; monika.frei@example.com
+Yannick;Schneider;Hohlstrasse 4;4410;Liestal;0612345678;0798765432;1989-05-12; yannick.schneider@example.com
+Evelyn;Fischer;Märtplatz 8;8001;Zürich;0444567890;0789876543;1981-06-23; evelyn.fischer@example.com
+Dario;König;Gartenweg 12;8400;Winterthur;0526789012;0791230987;1993-07-30; dario.koenig@example.com
+Christina;Gasser;Schulstrasse 7;3000;Bern;0316789012;0784321098;1984-08-05; christina.gasser@example.com
+Miriam;Bachmann;Alpenstrasse 1;3900;Zermatt;0274567890;0789876543;1990-09-18; miriam.bachmann@example.com
+Alexander;Häberli;Dorfstrasse 2;8133;Einsiedeln;0556789012;0793456789;1982-10-20; alexander.haeberli@example.com
+Livia;Roth;Wiesenstrasse 3;8302;Kloten;0443456789;0781234567;1991-11-12; livia.roth@example.com
+Benjamin;Schwarz;Sonnenstrasse 5;3074;Muri bei Bern;0314567890;0798765432;1988-12-23; benjamin.schwarz@example.com
+Laura;Lutz;Zentrumstrasse 8;8200;Schaffhausen;0522345678;0795432109;1995-01-10; laura.lutz@example.com
+Anja;Schmid;Bernstrasse 5;4054;Basel;0611234567;0789876543;1983-02-15; anja.schmid@example.com
+Lukas;Meier;Gartenstrasse 11;5063;Gansingen;0563456789;0786543210;1987-03-29; lukas.meier@example.com
+Claudia;Eichenberger;Hauptstrasse 4;9000;St. Gallen;0712345678;0798765432;1992-04-18; claudia.eichenberger@example.com
+Eric;Baumann;Lindenweg 9;8580;Amriswil;0716789012;0781230987;1981-05-30; eric.baumann@example.com
+Sarah;Ammann;Schulstrasse 10;4000;Basel;0613456789;0798765432;1990-06-25; sarah.ammann@example.com
+Moritz;Friedli;Zürcherstrasse 6;8008;Zürich;0449876543;0787654321;1985-07-12; moritz.friedli@example.com
+Jana;Gerber;Neumarkt 2;8600;Dübendorf;0446789012;0795432109;1987-08-29; jana.gerber@example.com
+Florian;Gschwind;Hohenrain 11;8903;Bremgarten;0567890123;0789876543;1994-09-14; florian.gschwind@example.com
