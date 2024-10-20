@@ -1,13 +1,12 @@
 /*
-    Autor:  Jonas, Fabian, Bojan
-    Datum:  29.08.2024
-    DB:     Techelectronics
+Zweck:  Erstellt die Datenbank mit allen benötigten Tabellen und Relationen
+Autor:  Jonas Sieber, Fabian Manser, Bojan Maljuric
+Datum:  19.10.2024
+Ausführung: mysql -u root -p < C:\pfad\zum\Script\createDB.sql
 */
 
--- -----------------------------------------------------
--- Deactivate FOREIGN_KEY_CHECKS and deletes old Database
--- -----------------------------------------------------
 
+-- Deaktiviert den FOREIGN_KEY_CHECKS und löscht die alte Datenbank
 SET FOREIGN_KEY_CHECKS = 0;
 DROP DATABASE IF EXISTS Techelectronics;
 
@@ -144,8 +143,5 @@ CREATE TABLE IF NOT EXISTS Techelectronics.Lager (
 -- Indexierung des Lagerorts
 CREATE INDEX idx_lager_lagerort ON Lager (Lagerort);
 
--- -----------------------------------------------------
--- Reactivate FOREIGN_KEY_CHECKS
--- -----------------------------------------------------
-
+-- Reaktiviert den FOREIGN_KEY_CHECKS und löscht die alte Datenbank
 SET FOREIGN_KEY_CHECKS = 1;

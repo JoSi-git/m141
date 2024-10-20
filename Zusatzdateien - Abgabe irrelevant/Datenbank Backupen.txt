@@ -1,0 +1,8 @@
+:: In den Pfad gehen: 
+cd C:\Program Files\MySQL\MySQL Server 8.4\bin
+
+:: Den Befehl um die ganzen Database zu Backupen 
+mysql -u root -p techelectronics > "C:\temp\techelectronics_backup.sql"
+
+:: Den Befehl um die Datenbank zu restoren: 
+mysql -u root -p techelectronics < "C:\temp\techelectronics_backup.sql

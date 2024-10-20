@@ -1,25 +1,25 @@
 /*
-    Autor:  Jonas, Fabian, Bojan
-    Datum:  29.08.2024
-    DB:     Techelectronics
+Zweck:  Importiert sämtliche Daten der Webseite
+Autor:  Jonas Sieber, Fabian Manser, Bojan Maljuric
+Datum:  19.10.2024
+Ausführung: mysql -u root -p < C:\pfad\zum\Script\importData.sql
 */
 
--- -----------------------------------------------------
--- Deactivate FOREIGN_KEY_CHECKS and prepare to delete old data
--- -----------------------------------------------------
+-- Deaktiviert den FOREIGN_KEY_CHECKS und bereitet das Löschen alter Daten vor.
 SET FOREIGN_KEY_CHECKS = 0;
 SET SQL_SAFE_UPDATES = 0;
 
--- Delete existing data in all tables
+-- Vorhandene Daten in allen Tabellen löschen
 DELETE FROM Techelectronics.Warenkorb;
 DELETE FROM Techelectronics.Lager;
 DELETE FROM Techelectronics.Bestellung;
 DELETE FROM Techelectronics.Produkt;
 DELETE FROM Techelectronics.Produktkategorie;
 DELETE FROM Techelectronics.Zahlmethode;
+DELETE FROM Techelectronics.Kunde;
 
 -- -----------------------------------------------------
--- Insert data for 'Zahlmethode'
+-- Insert data für 'Zahlmethode'
 -- -----------------------------------------------------
 INSERT INTO Techelectronics.Zahlmethode (Zahlmethode) 
 VALUES 
@@ -28,7 +28,7 @@ VALUES
   ('Überweisung');
 
 -- -----------------------------------------------------
--- Insert data for 'Produktkategorie'
+-- Insert data für 'Produktkategorie'
 -- -----------------------------------------------------
 INSERT INTO Techelectronics.Produktkategorie (Produktkategorie) 
 VALUES 
@@ -37,7 +37,7 @@ VALUES
   ('Tablets');
 
 -- -----------------------------------------------------
--- Insert data for 'Produkt'
+-- Insert data für 'Produkt'
 -- -----------------------------------------------------
 INSERT INTO Techelectronics.Produkt (Name, Hersteller, Produktnummer, Preis, Produktkategorie_id_Produktkategorie) 
 VALUES 
@@ -47,7 +47,7 @@ VALUES
   ('Surface Pro', 'Microsoft', '456123', 999.99, 3);
 
 -- -----------------------------------------------------
--- Insert data for 'Bestellung'
+-- Insert data für 'Bestellung'
 -- -----------------------------------------------------
 INSERT INTO Techelectronics.Bestellung (Zahlmethode_id_Zahlmethode, Zeitstempfel, Abgerechnet, Kunde_id_Kunde) 
 VALUES 
@@ -56,7 +56,7 @@ VALUES
   (3, '2024-08-05 18:45:00', 'Ja', 3);
 
 -- -----------------------------------------------------
--- Insert data for 'Warenkorb'
+-- Insert data für 'Warenkorb'
 -- -----------------------------------------------------
 INSERT INTO Techelectronics.Warenkorb (Bestellung_id_Bestellung, Produkt_id_Produkt) 
 VALUES 
@@ -66,32 +66,30 @@ VALUES
   (3, 4);
 
 -- -----------------------------------------------------
--- Insert data for 'Lager'
+-- Insert data für 'Lager'
 -- -----------------------------------------------------
 INSERT INTO Techelectronics.Lager (Anzahl, Lagerort, Produkt_id_Produkt) 
 VALUES 
   (50, 1, 1),
   (30, 2, 2),
   (15, 3, 3),
-  (25, 1, 4);
+  (0, 1, 4);
 
 -- -----------------------------------------------------
--- LOAD DATA for 'Kunde' table
+-- LOAD DATA für 'Kunde'
 -- -----------------------------------------------------
--- Format: Nachname, Vorname, Strasse, Postleitzahl, Ort, Telefonnummer, Handynummer, Geburtsdatum, `E-Mail Adresse`
 -- Windows Path: C:\ProgramData\MySQL\MySQL Server 8.4\Uploads\
 
 LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.4\\Uploads\\Kunde.csv' 
 INTO TABLE Techelectronics.Kunde
 CHARACTER SET utf8mb4
-FIELDS TERMINATED BY ';' 
+FIELDS TERMINATED BY ';'
 ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'
 ignore 1 rows
-(Nachname, Vorname, Strasse, Postleitzahl, Ort, Telefonnummer, Handynummer, Geburtsdatum, `E-Mail Adresse`);
+(`Nachname`, `Vorname`, `Strasse`, `Postleitzahl`, `Ort`, `Telefonnummer`, `Handynummer`, `Geburtsdatum`, `E-Mail Adresse`);
 
--- -----------------------------------------------------
--- Reactivate FOREIGN_KEY_CHECKS
--- -----------------------------------------------------
+
+-- Reaktiviert den FOREIGN_KEY_CHECKS und SQL_SAFE_UPDATES
 SET FOREIGN_KEY_CHECKS = 1;
 SET SQL_SAFE_UPDATES = 1;
